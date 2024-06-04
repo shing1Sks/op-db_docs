@@ -3,8 +3,8 @@ import Model_Code from "../Model_Code.jsx";
 
 function Req_Res({ statement, req, type, res, model, code ,endpoint}) {
   return (
-    <div className="flex flex-col w-full justify-center sm:gap-2 items-center">
-      <p className="bg-slate-300 mt-14 text-xl dark:bg-slate-700 text-slate-800 dark:text-slate-200 text-justify w-[750px]">
+    <div className="flex flex-col sm:w-full justify-center sm:gap-2 items-center">
+      <p className="bg-slate-300 mt-14 text-xl dark:bg-slate-700 text-slate-800 dark:text-slate-200 sm:text-justify sm:w-[750px]">
         {statement}
       </p>
       <p className="text-lg sm:text-xl text-red-600 text-center">{type} @ {endpoint} !</p>

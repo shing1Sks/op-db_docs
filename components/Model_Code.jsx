@@ -3,7 +3,7 @@ import React from "react";
 function Model_Code({ model, code ,className="" }) {
   const [show, setShow] = React.useState(true);
   return (
-    <div className={`${className} w-[400px] h-[500px] border-2 border-black rounded-md flex flex-col pt-2 pb-5 my-5`}>
+    <div className={`${className} sm:w-[400px] h-[500px] border-2 border-black rounded-md flex flex-col pt-2 pb-5 my-5`}>
       <div className="border-b-1 border-gray-800 flex flex-row items-center justify-evenly">
         <button
           onClick={() => setShow(!show)}
