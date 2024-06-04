@@ -23,7 +23,7 @@ import Like from "@/components/doc-api/posts/Like.jsx";
 import Search from "@/components/doc-api/posts/Search.jsx";
 import Unlike from "@/components/doc-api/posts/Unlike.jsx";
 import Updt from "@/components/doc-api/posts/Updt.jsx";
-import React, { useState } from "react";
+import { useState } from "react";
 
 const topics = [
   { id: "user/register" },
