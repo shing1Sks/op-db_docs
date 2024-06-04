@@ -21,12 +21,12 @@ function Model_Code({ model, code ,className="" }) {
       <div className="mt-3 px-3 overflow-auto">
         {show ? (
           model.map((element, index) => {
-            return <p className={`${index==0?"text-xl text-gray-700 text-center dark:text-gray-300 font-bold":"text-center"}`}>{`${index == 0 ? "" : index+"."} ${element}`}</p>;
+            return <p className={`${index==0?"text-xl text-gray-700 text-center dark:text-gray-300 font-bold":"text-center"}`} key={index}>{`${index == 0 ? "" : index+"."} ${element}`}</p>;
           })
         ) : (
           <div class="mockup-code text-left">
             {code.map((element, index) => {
-                return <pre data-prefix={index+1}><code>{element}</code></pre>
+                return <pre data-prefix={index+1} key={index}><code>{element}</code></pre>
             })}
           </div>
         )}

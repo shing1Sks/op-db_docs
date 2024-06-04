@@ -16,7 +16,7 @@ function Req_Res({ statement, req, type, res, model, code ,endpoint}) {
           </p>
           <div className="mockup-code overflow-auto sm:w-[400px] w-[180px] sm:h-fit h-[200px]">
             {req.map((variable, index) => (
-              <pre data-prefix={index + 1}>
+              <pre key={index} data-prefix={index + 1}>
                 <code>{variable}</code>
               </pre>
             ))}
@@ -26,7 +26,7 @@ function Req_Res({ statement, req, type, res, model, code ,endpoint}) {
           </p>
           <div className="mockup-code overflow-auto sm:w-[400px] w-[180px] sm:h-[750px] h-[350px]">
             {res.map((variable, index) => (
-              <pre data-prefix={index + 1}>
+              <pre key={index} data-prefix={index + 1}>
                 <code>{variable}</code>
               </pre>
             ))}

@@ -123,7 +123,7 @@ function Introduction() {
       <div className="flex flex-col gap-5 justify-evenly items-center  bg-slate-300 dark:bg-slate-700 text-slate-800 dark:text-slate-200 text-justify pt-5 pb-3 border-y-2 border-black dark:border-white sm:my-2">
         <div>
           <p>
-            Let's start by adding basic signup and login/logout functionality.
+            Let&apos;s start by adding basic signup and login/logout functionality.
           </p>
           <p>
             With just a few steps, you can set up authentication for your
@@ -171,7 +171,7 @@ function Introduction() {
         </p>
         <div className="mockup-code overflow-auto sm:w-fit w-[180px] sm:h-[600px] h-[350px]">
           {registerUserCode.map((variable, index) => (
-            <pre data-prefix={index + 1}>
+            <pre key={index} data-prefix={index + 1}>
               <code>{variable}</code>
             </pre>
           ))}
@@ -181,7 +181,7 @@ function Introduction() {
         </p>
         <div className="mockup-code overflow-auto sm:w-fit w-[180px] sm:h-[600px] h-[350px]">
           {userLoginCode.map((variable, index) => (
-            <pre data-prefix={index + 1}>
+            <pre key={index} data-prefix={index + 1}>
               <code>{variable}</code>
             </pre>
           ))}
@@ -191,7 +191,7 @@ function Introduction() {
         </p>
         <div className="mockup-code overflow-auto sm:w-fit w-[180px] sm:h-[600px] h-[350px]">
           {logoutUserCode.map((variable, index) => (
-            <pre data-prefix={index + 1}>
+            <pre key={index} data-prefix={index + 1}>
               <code>{variable}</code>
             </pre>
           ))}

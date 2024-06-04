@@ -20,7 +20,7 @@ function Installation() {
         <p className="text-3xl text-slate-600 dark:text-slate-200 font-semibold pt-2">
           Installation -
         </p>
-        <p className="pt-2">To get started let's go with the prerequisites.</p>
+        <p className="pt-2">To get started let&apos;s go with the prerequisites.</p>
         <a href="https://www.mongodb.com">
           <p>1. You must need an mongodb account setup.</p>
         </a>
@@ -51,7 +51,7 @@ function Installation() {
         </div>
         <div className="mockup-code overflow-auto w-[100px] sm:w-fit">
           {envVariables.map((variable, index) => (
-            <pre data-prefix={index + 1}>
+            <pre key={index} data-prefix={index + 1}>
               <code>{variable}</code>
             </pre>
           ))}
@@ -66,7 +66,7 @@ function Installation() {
         </div>
         <div className="mockup-code overflow-auto w-[100px] sm:w-[80px]">
           <pre data-prefix="1">
-            <code>import dotenv from "dotenv";</code>
+            <code>import dotenv from &quot;dotenv&quot;;</code>
           </pre>
           <pre data-prefix="2">
             <code>dotenv.config(&#123; path: &quot;./.env&quot; &#125;);</code>
@@ -83,10 +83,10 @@ function Installation() {
         </div>
         <div className="mockup-code overflow-auto w-[100px] sm:w-fit">
         <pre data-prefix="1">
-            <code>import dotenv from "dotenv";</code>
+            <code>import dotenv from &quot;dotenv&quot;;</code>
           </pre>
           <pre data-prefix="2">
-            <code>import main from "op-db"</code>
+            <code>import main from &quot;op-db&quot;</code>
           </pre>
           <pre data-prefix="3">
             <code>dotenv.config(&#123; path: &quot;./.env&quot; &#125;);</code>

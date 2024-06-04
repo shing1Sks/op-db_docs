@@ -198,7 +198,7 @@ function HomeSec() {
             </li>
             <li>
               2. Multi-Project Support: Utilize the same server for multiple
-              projects through op-db's intelligent segregation system.
+              projects through op-db&apos;s intelligent segregation system.
             </li>
             <li>
               3. Full Customization: Tailor the server and endpoints to fit the
@@ -219,7 +219,7 @@ function HomeSec() {
           </ol>
         </div>
         <div className="flex items-center justify-center w-[40%]">
-          Explore the power of op-db and elevate your project's database
+          Explore the power of op-db and elevate your project&apos;s database
           management to new heights. For more information, visit op-db on
           GitHub.
         </div>
