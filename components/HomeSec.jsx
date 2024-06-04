@@ -1,6 +1,6 @@
 "use client";
-import Footer from "./Footer";
-import Model_Code from "./Model_Code";
+import Footer from "./Footer.jsx";
+import Model_Code from "./Model_Code.jsx";
 import { TypewriterEffectSmooth } from "./ui/typewriter-effect";
 import React from "react";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import Model_Code from "../Model_Code";
+import Model_Code from "../Model_Code.jsx";
 
 function Req_Res({ statement, req, type, res, model, code ,endpoint}) {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import Req_Res from "../Req_Res";
+import Req_Res from "../Req_Res.jsx";
 
 function LiPosts() {
   const statement = "Get all the posts liked by the logged in user !";

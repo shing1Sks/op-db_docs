@@ -1,8 +1,8 @@
 "use client";
-import Footer from "@/components/Footer";
-import Installation from "@/components/doc-components/Installation";
-import Introduction from "@/components/doc-components/Introduction";
-import Usage from "@/components/doc-components/Usage";
+import Footer from "@/components/Footer.jsx";
+import Installation from "@/components/doc-components/Installation.jsx";
+import Introduction from "@/components/doc-components/Introduction.jsx";
+import Usage from "@/components/doc-components/Usage.jsx";
 import React, { useState } from "react";
 
 const topics = [
