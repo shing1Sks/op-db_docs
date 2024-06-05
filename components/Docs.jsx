@@ -32,7 +32,7 @@ function Docs() {
           ☰
         </button>
         <nav
-          className={`fixed pt-[60px] overflow-auto sm:top-0 left-0 h-full z-10 w-fit bg-gray-100 dark:bg-slate-500 transition-transform transform ${
+          className={`fixed pt-[60px] overflow-auto sm:overflow-visible sm:top-0 left-0 h-full z-10 w-fit bg-gray-100 dark:bg-slate-500 transition-transform transform ${
             isSidebarOpen ? "translate-x-0" : "-translate-x-full"
           } md:relative md:translate-x-0`}
         >
@@ -62,7 +62,7 @@ function Docs() {
             </div>
           )}
           {currentTopic === "usage" && (
-            <div>
+            <div> 
               <Usage />
             </div>
           )}
