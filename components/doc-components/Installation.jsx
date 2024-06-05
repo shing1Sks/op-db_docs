@@ -44,6 +44,7 @@ function Installation() {
           Setup the environment file.
           <p>1. Create a .env file at the root directory only!</p>
           <p>2. Create an empty folder named public at the root then an temp folder within it.</p>
+          <p>3. Add "type" : "module" in package.json ! for the following code to work !</p>
           <p className="text-orange-400">File structure <span className="text-red-500">public/temp</span> must be present at the root!</p>
           <p className="text-orange-500">
             Replace the env details with your data!
