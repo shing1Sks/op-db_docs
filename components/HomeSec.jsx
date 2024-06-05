@@ -227,9 +227,9 @@ function HomeSec() {
       <div>
         <p className="text-3xl mt-4">The models you get !</p>
         <div className="flex flex-col sm:flex-row items-center justify-evenly">
-          <Model_Code model={userModel} code={userCode} />
-          <Model_Code model={postModel} code={postCode} />
-          <Model_Code model={commentModel} code={commentCode} />
+          <Model_Code model={userModel} className="w-[300px]" code={userCode} />
+          <Model_Code model={postModel} className="w-[300px]" code={postCode} />
+          <Model_Code model={commentModel} className="w-[300px]" code={commentCode} />
         </div>
       </div>
       <div className="mt-[60px] w-full dark:bg-grid-white/[0.2] bg-grid-black/[0.2] py-3 mb-4 border-b-2 border-gray-300 border-t-2">
