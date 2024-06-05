@@ -41,7 +41,7 @@ function Installation() {
       </div>
       <div className="flex flex-col sm:flex-row justify-evenly items-center  bg-slate-300 dark:bg-slate-700 text-slate-800 dark:text-slate-200 text-justify pt-5 pb-3 border-y-2 border-slate-500 my-2">
         <div>
-          Setup the environment file.
+          <p className="text-lg font-medium">Complete the setup !</p>
           <p>1. Create a .env file at the root directory only!</p>
           <p>2. Create an empty folder named public at the root then an temp folder within it.</p>
           <p>3. Add "type" : "module" in package.json ! for the following code to work !</p>
