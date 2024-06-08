@@ -5,6 +5,7 @@ import "./globals.css";
 import { useState } from "react";
 import Header from "@/components/Header.jsx";
 import Head from "next/head";
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
         <body className={`${inter.className} ${theme}`}>
           <Header theme={theme} setTheme={setTheme} />
           {children}
+          <Analytics />
         </body>
       </html>
     </>
